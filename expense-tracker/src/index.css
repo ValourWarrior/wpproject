@@ -1,0 +1,93 @@
+/* src/index.css */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #218838;
+}
+
+.login-container p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-container a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+.dashboard-container {
+  padding: 20px;
+}
+
+.add-expense-container,
+.budget-overview-container {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-expense-container form,
+.budget-overview-container .budget-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-expense-container input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add-expense-container button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-expense-container button:hover {
+  background-color: #0056b3;
+}
+
+.budget-overview-container p {
+  margin: 5px 0;
+  font-size: 18px;
+}
